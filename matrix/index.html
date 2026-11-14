@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Vernuli Matrix · Didier Guisland</title>
+<meta name="description" content="A practical method for deciding what to automate with AI, and exactly where human judgment has to sit.">
+<meta property="og:title" content="The Vernuli Matrix">
+<meta property="og:description" content="Before automating, ask each action three questions. Then put a person at the right point, with a source, time and authority.">
+<meta name="author" content="Didier Guisland">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<nav class="top"><a href="../">Home</a><a href="../en/">Read the essay</a><a href="../es/">Ensayo en español</a></nav>
+<p class="kicker">A method · Working version</p>
+<h1>The Vernuli Matrix</h1>
+<p class="lede">Before asking "what can AI do?", ask "how much does it cost to get it wrong, and where do we need to be to prevent it?"</p>
+<hr class="rule">
+
+<p>The Matrix comes out of the essay <a href="../en/">The Rising Cost of Judgment</a>. It is deliberately simple: it is meant to be used in a meeting with the people who run a process, not by a specialist alone.</p>
+
+<figure>
+  <img src="../assets/matrix.svg" alt="The Vernuli Matrix: break a process into actions, ask each one three questions, land it in one of four outcomes, and give the person at the right point a source, time and authority.">
+  <figcaption>The Matrix at a glance.</figcaption>
+</figure>
+
+<h2>1. Break the process into actions</h2>
+<p>Not "automate accounts payable", but concrete actions: read an invoice, match it to a purchase order, approve the payment, send it. Each action gets its own answer; most processes end up as a mix.</p>
+
+<h2>2. Ask each action three questions</h2>
+<ol class="steps">
+  <li><strong>What kind of solution does it call for?</strong> Not everything needs AI. If the information arrives organized and the rule is clear, a simple integration is enough. AI makes sense when the information arrives messy but the result has a fixed shape you can compare it against.</li>
+  <li><strong>How much does a mistake cost?</strong> Some mistakes pass through a point where someone can still catch them. Others go straight to a point of no return: sending, paying, publishing. The cost can be financial, reputational or legal.</li>
+  <li><strong>How much does reviewing cost?</strong> How much time someone with good judgment needs to make sure the result is reliable. The rule underneath: a task is only worth automating if verifying the result costs less than producing it.</li>
+</ol>
+
+<h2>3. Land each action in one of four outcomes</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Outcome</th><th>Typically when</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Automate</strong></td><td>A mistake is cheap or caught downstream, and checking the result is quick.</td></tr>
+    <tr><td><strong>Automate, with a person at the right point</strong></td><td>A mistake is expensive, but there is a step before the point of no return where reviewing is cheap and decisive.</td></tr>
+    <tr><td><strong>Redesign</strong></td><td>Reviewing would cost about as much as doing the work, so the savings vanish or people start to skim. Change the process before automating it.</td></tr>
+    <tr><td><strong>Leave as it is</strong></td><td>The action depends on judgment that no reviewer could cheaply verify, or automating it buys too little.</td></tr>
+  </tbody>
+</table>
+</div>
+<p>The table is a guide, not a formula. The real goal is the second row: finding the exact place in each process where you can't let go of human judgment.</p>
+
+<h2>4. Make sure that person's judgment can work</h2>
+<p>Putting someone in the loop guarantees nothing by itself. Judgment needs three conditions; if one is missing, review becomes a formality.</p>
+<ul>
+  <li><strong>A source the AI doesn't have.</strong> The financial advisor who sat in the meeting reviews its summary, not someone from another department.</li>
+  <li><strong>Time to use it.</strong> If verifying takes as long as producing, either the savings disappear or the review turns into skimming.</li>
+  <li><strong>Authority to stop it.</strong> A chatbot that can promise a customer a $1 SUV needs someone who can say "this doesn't go out" before it goes out.</li>
+</ul>
+
+<h2>A worked example</h2>
+<p>In an AI video production line, the author first reviewed at the end: "make me a video", then fix what he didn't like. Fixing something in the finished animation cost about <strong>$7</strong>; the same change at the storyboard cost about <strong>$1.20</strong>. Asking the three questions moved the person to the idea, the hook and the storyboard, and let the machine handle voice sync, animation code and rendering alone.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Action</th><th>Solution</th><th>Cost of a mistake</th><th>Cost of review</th><th>Outcome</th></tr></thead>
+  <tbody>
+    <tr><td>Pick the idea and the hook</td><td>AI proposes, person decides</td><td>High: a flat hook sinks the video</td><td>Low</td><td>Person at the right point</td></tr>
+    <tr><td>Storyboard and test shots</td><td>AI</td><td>Medium</td><td>Low (~$1.20 to fix)</td><td>Person at the right point</td></tr>
+    <tr><td>Animate the final video</td><td>AI</td><td>Medium</td><td>High (~$7 to redo)</td><td>Automate, after the storyboard is approved</td></tr>
+    <tr><td>Sync voice, render</td><td>Script, no AI</td><td>Low</td><td>Low</td><td>Automate</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="pill">Illustrative reading of the case described in the essay</p>
+<p>See the system itself: <a href="https://github.com/didierguisland/ai-video-factory">ai-video-factory</a>.</p>
+
+<h2>Status</h2>
+<p><span class="pill">Working version</span> The Matrix has been applied to the author's own systems and to synthetic cases. It is shared as a thinking tool, not as a validated standard.</p>
+
+<footer>
+  Didier Guisland · November 2026 · Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><br>
+  The rule "a task is only worth automating if verifying the result costs less than producing it" and the idea that AI fits messy inputs with fixed-shape outputs come from Jeff Eyet (UC Berkeley); see the essay's notes.
+</footer>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Un ensayo sobre dónde va el juicio humano cuando las respuestas se vuelven gratis. Por Didier Guisland."><meta property="og:title" content="El encarecimiento del juicio"><meta property="og:description" content="Un ensayo sobre dónde va el juicio humano cuando las respuestas se vuelven gratis. Por Didier Guisland."><meta property="og:type" content="article"><meta name="author" content="Didier Guisland"><title>El encarecimiento del juicio</title>
+<style>
+html { -webkit-print-color-adjust: exact; }
+body { margin: 0; hyphens: manual; }
+sup { font-size: .62em; line-height: 0; vertical-align: super; }
+p { margin: 0; orphans: 3; widows: 3; }
+.nota { break-inside: avoid; overflow-wrap: anywhere; }
+a { color: inherit; overflow-wrap: anywhere; }
+.marcador { background: #FFF1A8; color: #6B5300; font-style: normal; padding: .1em .35em; border: 1px dashed #C9A400; font-family: 'Helvetica Neue', sans-serif; font-size: 9pt; letter-spacing: 0; text-transform: none; }
+@page { size: 8.5in 11in; margin: .95in 1.2in .95in 1.2in;
+  @bottom-left { content: "Didier Guisland   ·   El encarecimiento del juicio"; white-space: pre; width: 5in; font: 7.5pt 'Helvetica Neue', sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #6d6d6d; vertical-align: top; padding-top: .3in; }
+  @bottom-right { content: counter(page); font: 9pt 'Helvetica Neue', sans-serif; color: #6d6d6d; vertical-align: top; padding-top: .26in; } }
+:root { --acento: #8C2F2B; }
+body { font-family: Charter, 'Bitstream Charter', Georgia, serif; font-size: 11.5pt; line-height: 1.55; color: #1a1a1a; }
+header { border-top: 2.5pt solid var(--acento); padding-top: .32in; margin-bottom: .42in; }
+h1 { text-wrap: balance; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 500; font-size: 32pt; line-height: 1.1; letter-spacing: -.01em; margin: 0 0 .2in; color: #111; }
+.bajada { font-style: italic; font-size: 15pt; line-height: 1.35; color: #444; margin: 0 0 .28in; }
+.firma { font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 8.5pt; letter-spacing: .16em; text-transform: uppercase; color: #555;
+  border-top: .5pt solid #bbb; border-bottom: .5pt solid #bbb; padding: .55em 0 .45em; display: flex; justify-content: space-between; }
+.firma b { font-weight: 600; color: var(--acento); }
+section p + p { text-indent: 1.4em; }
+section:first-of-type > p:first-child::first-line { font-variant-caps: normal; }
+section + section > p:first-child { padding-top: 3.1em; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Crect x='1.5' y='1.5' width='7' height='7' fill='%238C2F2B' transform='rotate(45 5 5)'/%3E%3C/svg%3E") center 1.05em / 10px 10px no-repeat; }
+sup { font-family: Charter, 'Bitstream Charter', Georgia, serif; color: var(--acento); font-size: .62em; padding-left: .05em; }
+h2.notas { font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 600; font-size: 9pt; letter-spacing: .2em; text-transform: uppercase; color: var(--acento);
+  border-top: 2.5pt solid var(--acento); padding-top: .9em; margin: 0 0 1.4em; break-before: page; }
+.lista-notas { column-count: 2; column-gap: .35in; column-rule: .5pt solid #ddd; }
+.nota { font-size: 9.5pt; line-height: 1.45; margin: 0 0 .75em; padding-left: 1.5em; text-indent: -1.5em; color: #222; }
+.nota .n { display: inline-block; width: 1.5em; text-indent: 0; font-size: 9pt; color: var(--acento); font-weight: 700; }
+a { text-decoration: none; color: #333; }
+
+@media screen {
+  html { background: #FBF9F5; }
+  body { max-width: 40rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; font-size: 1.15rem; line-height: 1.65; color: #1C2421; }
+  header { padding-top: 1.6rem; margin-bottom: 2.4rem; }
+  h1 { font-size: clamp(2.1rem, 7vw, 3.1rem); margin-bottom: 1.2rem; }
+  .firma { font-size: .72rem; }
+  section p + p { text-indent: 0; margin-top: 1.05em; }
+  section + section > p:first-child { margin-top: 2.2em; }
+  h2.notas { margin-top: 4rem; font-size: .75rem; }
+  .lista-notas { column-count: 1; }
+  .nota { font-size: .92rem; }
+  a { color: #8C2F2B; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .topnav { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; margin-bottom: 1.6rem; }
+  .topnav a { color: #5C6460; text-decoration: none; }
+  .topnav a:hover { color: #8C2F2B; }
+  .pie { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: .8rem; color: #5C6460; border-top: 1px solid #ddd; margin-top: 3rem; padding-top: 1rem; }
+}
+@media screen and (min-width: 60rem) { .lista-notas { column-count: 2; } }
+@media print { .topnav, .pie { display: none; } }
+</style></head>
+<body>
+<nav class="topnav"><a href="../">Inicio</a><a href="../en/">Read in English</a><a href="El-encarecimiento-del-juicio.pdf">PDF</a><a href="../matrix/">La Matriz Vernuli</a></nav>
+<header>
+<h1>El encarecimiento del juicio</h1>
+<div class="firma"><span><b>Didier Guisland</b></span><span>Noviembre de 2026</span></div>
+</header>
+<main>
+<section>
+<p>Durante mi paso por UC Berkeley conocí al que fue mi profesor y mentor, Jeff Eyet. A lo largo de sus clases, Jeff suele contar lo que pasó cuando llegó la hoja de cálculo a las oficinas a principios de los ochenta: la gente, un poco espantada, esperaba que los contadores iban a sobrar, pero lo curioso es que pasó exactamente lo contrario.</p>
+<p>El puesto más rutinario, que era el del auxiliar contable, casi no cambió, y de hecho el de contador casi se duplicó,<sup>1</sup> porque la hoja de cálculo no había eliminado el trabajo, lo había movido. Dejó de ser un trabajo de hacer aritmética y se transformó en lo que siempre había sido realmente valioso: entender y decidir qué significaban los números.</p>
+<p>Pero esta historia que comparte Jeff no se trata del aumento de trabajo para los contadores, ni de contarnos la maravilla que son las hojas de cálculo. Es para explorar un patrón que se está repitiendo, y a un nivel incluso mayor, con la IA (inteligencia artificial). Para Jeff, la IA le está haciendo al primer borrador lo que la hoja de cálculo le hizo a la aritmética: producir un texto, un diseño o un análisis que parece bien hecho ya cuesta casi nada.</p>
+<p>Y es ahí donde surge una pregunta aún más grande: si hoy en día es tan fácil producir respuestas, ¿dónde queda el verdadero valor humano?</p>
+<p>Para Jeff sale de dos lados. Primero, de “la pregunta”, porque para obtener una respuesta correcta tenemos que empezar por saber qué preguntar. Y después, de “la crítica”, porque entender y atacar lo que la IA regresó es la diferencia entre puro ruido y un trabajo terminado.</p>
+<p>De ahí sale su regla más práctica: una tarea solo vale la pena automatizarla si verificar el resultado cuesta menos que producirlo. Y lo resume en una línea: las respuestas ya son gratis; el juicio no.<sup>2</sup></p>
+</section>
+
+<section>
+<p>Con esa línea en mente y dándole vueltas, me pregunté: si las respuestas se hacen cada vez más baratas y el juicio cada vez más caro, entonces antes de automatizar o delegar, la pregunta no es ¿qué capacidades tiene la IA?, sino ¿cuánto cuesta equivocarse y en dónde tenemos que estar para evitarlo?</p>
+<p>Después de un tiempo, y con mucho trabajo de por medio, nació lo que llamo la “Vernuli Matrix”.</p>
+<p>La idea es más sencilla que el nombre. Antes de automatizar o delegar un proceso, intentamos partirlo en acciones concretas, como puede ser leer un correo y hacer un resumen, capturar un pedido y generar el envío, o aprobar un pago y generar una factura. Y a cada una le hacemos tres preguntas.</p>
+<p>La primera es: ¿qué tipo de solución pide? No todo necesita IA. Si la información nos llega ya ordenada y la regla es clara, basta una integración sencilla. Como dice Jeff, la IA conviene cuando la información llega desordenada, pero el resultado tiene una forma fija, algo contra lo que después podamos comparar.</p>
+<p>La segunda es: ¿cuánto cuesta cometer un error? Hay errores que, antes de causar daño, pasan por un punto donde alguien sí los puede detectar. Y hay otros que llegan directo a un punto sin regreso: enviar, pagar, publicar. Y es importante mencionar que el costo puede tener diferentes dimensiones según el proceso: puede ser económico, de imagen o incluso legal.</p>
+<p>La tercera es: ¿cuánto cuesta revisar? Es decir, cuánto tiempo tiene que poner alguien con criterio para asegurarse de que el resultado sea confiable.</p>
+<p>Con estas tres respuestas, intentamos que cada acción aterrice en un lugar de la matriz: se automatiza, se automatiza con una persona en el punto justo, se rediseña o se deja como está. Pero lo que realmente buscamos es ese punto justo: el lugar exacto de cada proceso donde el juicio humano no se puede soltar. Más adelante les cuento cómo lo encontré yo mismo.</p>
+<p>Pero antes quiero mencionar algo: encontrar ese punto no es suficiente. Poner a una persona ahí no garantiza nada si su juicio no puede funcionar. Déjenme les cuento un poco más.</p>
+</section>
+
+<section>
+<p>Investigando casos de empresas que ya automatizaron con IA y que lo viven en el día a día de sus operaciones, me di cuenta de que eso que llamamos juicio necesita tres condiciones, y si falta cualquiera, se vuelve un simple trámite.</p>
+<p>La primera condición es tener una fuente que la IA no tiene. Suena obvio, pero es lo que más se pasa por alto. Cuando alguien revisa lo que hizo la IA, la pregunta real no es si el texto se lee bien, porque casi siempre, por no decir siempre, la IA hace que se lea bien, sino si lo que dice es cierto. Y para saber si algo es cierto, esa persona necesita con qué compararlo: haber estado ahí, conocer al cliente, tener el dato original o incluso lo que le da la experiencia. Si no lo tiene, lo único que puede revisar es la ortografía y el tono, y el error pasa de largo con muy buena presentación.</p>
+<p>Morgan Stanley lo entendió bien. Sus asesores financieros usan una herramienta que escucha las reuniones con sus clientes y les entrega un resumen, y uno de ellos contó que con eso se ahorra cerca de media hora por reunión.<sup>3</sup> Pero el resumen no lo revisa cualquiera: lo revisa el mismo asesor que estuvo sentado en la junta. Él sabe si el cliente dijo que quería arriesgar más o menos, si se habló de una herencia o no, si el resumen exageró algo. Si ese mismo resumen lo revisara alguien de otra área que nunca escuchó la conversación, vería un texto perfecto y lo aprobaría, aunque estuviera mal. El juicio funciona porque la persona trae algo que la máquina no tiene.</p>
+<p>La segunda condición es tener tiempo para usar esa fuente. Aquí regresamos a la regla de Jeff: una tarea solo vale la pena automatizarla y delegarla si verificar cuesta menos que producir. Cuando revisar cuesta casi lo mismo que hacer, pasan dos cosas, y ninguna es buena: o el ahorro desaparece, o la gente, presionada por el tiempo, empieza a revisar por encima.</p>
+<p>La policía de Anchorage, en Alaska, lo vivió en carne propia. Probaron una herramienta que escribía los informes de los oficiales a partir de la grabación de sus cámaras. En el papel sonaba increíble: horas de papeleo resueltas en minutos. En la práctica, cada borrador había que leerlo completo, corregirlo y completarlo con todo lo que la grabación no captaba, como lo que el oficial vio y nadie dijo en voz alta o lo que sabía del lugar. Al final, revisar y corregir se comía buena parte del tiempo que se suponía iban a ahorrar, el ahorro nunca llegó y decidieron no adoptarla, al menos por ahora.<sup>4</sup> Y lo más interesante es que tomaron la decisión correcta. Lo peligroso habría sido quedarse con la herramienta y pedirles a los oficiales que revisaran en dos minutos lo que necesitaba veinte. Ahí el juicio deja de existir, aunque en el papel siga ahí.</p>
+<p>La tercera condición es tener autoridad para frenar. Puedes tener a la persona correcta, con la información correcta y con el tiempo suficiente, y aun así no sirve de nada si no tiene el poder, ni el lugar, para detener las cosas antes de que lleguen a ese punto sin regreso del que hablamos en la Vernuli Matrix.</p>
+<p>El ejemplo más claro es el de un concesionario de Chevrolet en California que puso un chatbot en su página para atender a los clientes. Un usuario, jugando, lo convenció de aceptar cualquier cosa que le dijera, y el chatbot terminó aceptando por escrito venderle una camioneta nueva por un dólar.<sup>5</sup> El problema no fue que la IA se equivocara, eso iba a pasar tarde o temprano. El problema fue que el proceso estaba armado para que el chatbot le contestara directo al cliente, y entre los dos no había nadie con la autoridad de decir “esto no sale” antes de que la respuesta llegara. Lo retiraron cuando el caso ya circulaba en redes, es decir, cuando el daño de imagen ya estaba hecho. Ver el error no sirve de nada si no se puede parar la máquina.</p>
+<p>Y si juntamos las tres, el juicio humano del que hablamos no es solo poner a una persona en el proceso. Es aprender a ponerla en el lugar correcto, con algo que la IA no sabe, con el tiempo para usarlo y con el poder de decir que no. Si falta cualquiera de las tres, lo que queda es un trámite que da tranquilidad, pero que no protege nada.</p>
+</section>
+
+<section>
+<p>Después de analizar estos casos, y otros más, llegué a las que creo son dos conclusiones, y las dos regresan a la misma pregunta de la Matrix: ¿dónde ponemos el juicio?</p>
+<p>La primera es que, igual que con la hoja de cálculo, el trabajo se mueve. La persona deja de producir y se vuelve la que decide: revisa, corrige, complementa y le pone su propia marca. Pero cuando el trabajo se mueve, la pregunta también cambia. Ya no es ¿quién hace el borrador?, sino ¿en qué parte del proceso tiene que estar el juicio para que el resultado realmente sirva? Y esa es justo la pregunta que casi nadie se hace.</p>
+<p>Y de ahí nace mi segunda conclusión, que es un poco más incómoda: cuando nadie se hace esa pregunta, el juicio se va por default al final. Se automatiza todo y, antes de que salga, alguien le da una revisada. Y ojo, revisar al final no es malo en sí; Morgan Stanley lo hace, y tiene sentido, porque quien revisa es el mismo que estuvo en la junta. El problema es cuando el final es el único lugar donde hay juicio, y la persona llega ahí sin esas tres condiciones.</p>
+<p>Porque al final el trabajo ya se ve perfecto y terminado: bien escrito, bien presentado y seguro de sí mismo. Quien lo revisa llega con prisa, y ya no lee para cuestionar, lee para aprobar. Y la IA se equivoca con la misma seguridad con la que acierta.</p>
+<p>CNET, un medio de tecnología muy conocido en Estados Unidos, publicó artículos escritos con IA que pasaban por un editor; después pausó el experimento y tuvo que corregir 41 de 77.<sup>6</sup> Abogados de un despacho llevaron a un tribunal citas de casos que nunca existieron, inventadas por la IA con todo el formato de un caso real.<sup>7</sup> Una consultora global entregó a un gobierno un informe con errores y tuvo que devolver parte del pago.<sup>8</sup></p>
+<p>En los tres casos había, o se suponía que había, alguien revisando al final. Y en los tres, el error lo encontró alguien de fuera. El problema no fue que faltara una persona, fue dónde la pusieron y con qué la dejaron trabajar.</p>
+<p>Entonces, ¿dónde sí va? Eso no lo terminé de entender leyendo casos. Lo entendí haciendo.</p>
+</section>
+
+<section>
+<p>Y aquí regreso a lo que les decía de la Vernuli Matrix, a ese punto justo del que hablaríamos más adelante, porque donde más me di cuenta fue con una experiencia personal: construyendo mi propia fábrica de videos.</p>
+<p>Nació de una meta concreta: sacar cada semana reels para una marca de salud en redes, casi solos, y aprender de cada uno con datos reales. La armé como una línea de agentes de IA: uno proponía el tema, otro escribía el guion, otro dirigía el arte, otro animaba y otro revisaba.</p>
+<p>Y lo curioso es que, al principio, caí exactamente en el mismo error que muchas empresas. Las primeras pruebas salieron tan bien que me deslumbré: quería que todo fuera automático, rápido y barato, y le confié todo a la IA. Yo solo decía “hazme un video”, y lo que no me gustaba lo corregía al final, justo en ese lugar por default del que les hablaba.</p>
+<p>La estructura funcionaba, pero los videos salían correctos y sin emoción: sin el gancho que buscaba, con detalles de más y otros fuera de lugar. Y lo que quería barato terminó saliendo caro: rehacer una animación terminada costaba unos siete dólares; hacer el mismo cambio en el boceto, uno con veinte.<sup>9</sup></p>
+<p>Así que le hice a mi propia fábrica las tres preguntas de la Matrix. ¿Qué tipo de solución pide cada paso? Sincronizar la voz o hacer el render tienen una forma fija, así que ahí la máquina sola basta. ¿Cuánto cuesta equivocarse? En la idea y el gancho, todo: si eso falla, el video entero sale sin alma. ¿Y cuánto cuesta revisar? En el boceto, casi nada; en la animación terminada, seis veces más. Ahí estaba mi punto justo, y fui moviendo mi lugar en el proceso. Pero ojo, eso no significa que ahora yo haga todo. Yo no escribo la idea ni el guion. Los agentes proponen temas, ganchos e historias, y yo me vuelvo parte de esa conversación: pregunto, cuestiono, escojo, pido otra vuelta, hasta que la idea, el gancho y el guion quedan cerrados. Después reviso el boceto y unas tomas de prueba. Lo demás lo suelto: la voz se sincroniza sola, la animación se programa y el render corre sin mí. No dejé de delegar. Dejé de delegar a ciegas.</p>
+<p>Y en el camino aprendí algo más: cada vez que corrijo algo, la IA lo anota en un libro de correcciones, con cuántas veces se repite. El agente que revisa lo usa en la siguiente vuelta, así que no corrijo lo mismo dos veces. Cada corrección deja de ser un arreglo y se vuelve aprendizaje.</p>
+<p>Ahora, quiero dejar algo muy claro: esto no es solo para algo creativo como una fábrica de videos, ni para grandes automatizaciones. Ese mismo deslumbramiento que viví yo le pasa a cualquier empresa que pone a su gente a trabajar con IA: al principio todo sale tan bien que la tentación es soltarlo todo. Pero lo que realmente cambia el resultado no es cuánto le delegas a la IA, sino que la persona deje de solo producir y se vuelva parte del proceso, en una conversación con la máquina. Lo he visto igual con algunos de los clientes con los que hemos trabajado en Vernuli, la consultora que cofundé: los proyectos que mejor funcionan no son los que tienen más tecnología, sino aquellos donde alguien entendió en qué momento tiene que entrar.</p>
+<p>Y para eso no hace falta saber programar. En Reino Unido, en un estudio con 68 escuelas, los maestros que usaron ChatGPT para preparar sus clases tardaron 56 minutos a la semana, contra 81 de los que no lo usaron, y un panel de expertos no encontró diferencia en la calidad de sus clases:<sup>10</sup> la IA proponía, pero el maestro decidía qué servía para su grupo. En Procter &amp; Gamble, profesionales comerciales y de investigación que trabajaron con IA, aun solos, presentaron propuestas de producto tan buenas como las de un equipo completo sin ella:<sup>11</sup> la IA ayudaba a explorar ideas, pero el conocimiento del negocio lo ponían ellos. Y en Kenia, en una red de clínicas, un asistente de IA revisa las notas de los médicos y les lanza alertas, pero la decisión sigue siendo suya; en casi 40 mil consultas, cometieron 16% menos errores de diagnóstico en un primer estudio, y un ensayo posterior, publicado en *Nature Medicine*, encontró que la herramienta era segura.<sup>12</sup> Ninguno programó nada. Simplemente supieron en qué parte de la conversación tenían que estar.</p>
+</section>
+
+<section>
+<p>Y aquí es donde le agregaría algo a la idea de Jeff. El juicio no vive solo antes, en la pregunta, ni solo después, en la crítica. También vive en medio, en las vueltas del camino.</p>
+<p>Trabajar con IA se parece a ir en un coche autónomo. La máquina elige la ruta y maneja sola gran parte del camino, pero hay vueltas donde alguien tiene que tomar el volante, porque solo quien va dentro sabe que los planes cambiaron, o intuye que algo en el camino no se ve bien. Eso sí, no se trata de decidir cada calle, sino de saber cuáles son las vueltas que importan.</p>
+<p>En mi fábrica, esas vueltas no están ni al principio ni al final: están en esa conversación con los agentes, en el boceto y en las tomas de prueba. Ahí es donde no suelto el volante.</p>
+<p>Y esas vueltas hoy pesan más que nunca. Cuando producir era lento, un error tenía tiempo de notarse; alguien lo veía en el camino. Hoy la IA lo multiplica en minutos, bien escrito y con toda la seguridad del mundo. Hay menos momentos donde una persona tiene que estar, sí, pero en cada uno de ellos se juega todo.</p>
+<p>Por eso hablo de encarecimiento. No es que pensar cueste más que antes; es que lo que abunda se abarata y lo que escasea sube de precio. Respuestas hay de sobra. Lo que no sobra es alguien con criterio, en la vuelta correcta y a tiempo. Y equivocarse en esa vuelta sale cada vez más caro.</p>
+<p>Si regresamos a donde empezamos, la historia se repite. Cuando llegó la hoja de cálculo, los contadores no desaparecieron: dejaron de hacer cuentas y se volvieron los que decidían qué significaban los números. Hoy nos está pasando lo mismo, pero más rápido y a todos. La pregunta ya no es si la IA puede hacer tu trabajo. La pregunta es si sabes cuál es la vuelta que nadie más puede tomar por ti.</p>
+<p>Por eso la ventaja no la tendrá quien automatice más. La tendrá quien sepa encontrar esas vueltas, ponga ahí a alguien con criterio, tiempo y autoridad, y convierta cada corrección en aprendizaje.</p>
+<p>Las respuestas ya son gratis. El juicio, cada vez más caro.</p>
+<p>Y justo por eso, lo más valioso hoy no es saber usar la IA, sino saber dónde no soltar el volante.</p>
+</section>
+
+<section>
+
+</section>
+</main>
+<h2 class="notas">Notas</h2>
+<div class="lista-notas">
+<p class="nota"><span class="n">1.</span>Jeff Eyet, “The Orchestration Age” (presentación de diapositivas, The Berkeley Innovation Group, 2026; PDF compartido con el autor), diapositiva 16. Cifras tal como aparecen en esa diapositiva, que cita al U.S. Bureau of Labor Statistics, <em>Monthly Labor Review</em>, noviembre de 1983, tabla 1, y el <em>Occupational Outlook Handbook</em> y las proyecciones de empleo 2024-2034. Contadores y auditores pasaron de 856,000 (1982) a 1,579,800 (2024); auxiliares contables, de 1,713,000 a 1,613,400. Las clasificaciones de 1982 y 2024 no son idénticas: la dirección es firme, los porcentajes no son directamente comparables.</p>
+<p class="nota"><span class="n">2.</span>Eyet, “The Orchestration Age”, diapositivas 3, 17 y 22. También es suya la regla de que la IA conviene con información desordenada cuando el resultado tiene una forma fija (diapositiva 18); las tres preguntas de la Vernuli Matrix son distintas de las tres que él plantea en la diapositiva 23, pero nacieron de la misma conversación.</p>
+<p class="nota"><span class="n">3.</span>Morgan Stanley Wealth Management, “Launch of AI @ Morgan Stanley Debrief”, comunicado de prensa, 26 de junio de 2024. La media hora la reportó un asesor del programa piloto.</p>
+<p class="nota"><span class="n">4.</span>Wesley Early, “Anchorage Police Not Moving Forward with Using AI to Write Reports, for Now”, <em>Alaska Public Media</em>, 4 de diciembre de 2024; Matthew Guariglia, “Anchorage Police Department: AI-Generated Police Reports Don’t Save Time”, Electronic Frontier Foundation, 12 de marzo de 2025. La herramienta era Draft One, de Axon, y se probó tres meses.</p>
+<p class="nota"><span class="n">5.</span>Zoe Skyforest, “Chevy Dealer’s AI Chatbot Allegedly Sold a New Tahoe for $1, Recommended Fords”, <em>The Autopian</em>, 18 de diciembre de 2023; Frank Landymore, “Car Dealership Disturbed When Its AI Is Caught Offering Chevys for $1 Each”, <em>Futurism</em>, 20 de diciembre de 2023. Chevrolet of Watsonville; no hay evidencia de que se concretara una venta.</p>
+<p class="nota"><span class="n">6.</span>Jon Christian, “CNET’s Article-Writing AI Is Already Publishing Very Dumb Errors”, <em>Futurism</em>, 17 de enero de 2023; Igor Bonifacic, “CNET Had to Correct Most of Its AI-Written Articles”, <em>Engadget</em>, 25 de enero de 2023.</p>
+<p class="nota"><span class="n">7.</span><em>Johnson v. Dunn</em>, 792 F. Supp. 3d 1241 (N.D. Ala. 2025), resolución del 23 de julio de 2025; “Judge Sanctions Lawyers Defending Alabama’s Prison System for Using Fake ChatGPT Cases in Filings”, Associated Press, 24 de julio de 2025. Los abogados eran de Butler Snow LLP, defensores de los demandados; el tribunal amonestó y descalificó a tres de ellos y liberó al despacho sin sanción. Las citas falsas las señaló primero la parte demandante.</p>
+<p class="nota"><span class="n">8.</span>Rod McGuirk, “Deloitte to Partially Refund Australian Government for Report with Apparent AI-Generated Errors”, Associated Press, 7 de octubre de 2025; Krishani Dhanji, “Deloitte to Pay Money Back to Albanese Government after Using AI in $440,000 Report”, <em>The Guardian</em>, 6 de octubre de 2025. La versión corregida del informe reconoció el uso de Azure OpenAI; no se estableció públicamente qué herramienta produjo cada error.</p>
+<p class="nota"><span class="n">9.</span>Nota del autor: costos medidos en mi propia línea de producción de video, en varias pruebas, en 2026.</p>
+<p class="nota"><span class="n">10.</span>Palak Roy et al., <em>ChatGPT in Lesson Preparation: A Teacher Choices Trial. Evaluation Report</em> (Londres: Education Endowment Foundation y NFER, 2024). Fueron 68 escuelas, ciencias de secundaria, y los maestros usaron una guía. El panel de expertos no encontró diferencias en la calidad de las clases.</p>
+<p class="nota"><span class="n">11.</span>Fabrizio Dell’Acqua et al., “The Cybernetic Teammate: A Field Experiment on Generative AI and Teamwork”, <em>Organization Science</em> 37, no. 4 (2026): 1217-1242, <a href="https://doi.org/10.1287/orsc.2025.20702">https://doi.org/10.1287/orsc.2025.20702</a>. No se midieron ventas.</p>
+<p class="nota"><span class="n">12.</span>Robert Korom et al., “AI-Based Clinical Decision Support for Primary Care: A Real-World Study”, preprint, arXiv, 22 de julio de 2025, <a href="https://arxiv.org/abs/2507.16947">https://arxiv.org/abs/2507.16947</a>. El 16% es una reducción relativa, en 39,849 consultas de 15 clínicas de Penda Health; el estudio fue hecho con OpenAI y no tiene revisión por pares. Un ensayo aleatorizado posterior encontró la herramienta segura, con documentación y planes de tratamiento mejor evaluados por revisores ciegos, pero no una reducción significativa de fallas de tratamiento: Ambrose Agweyu et al., “Generative AI-Enabled Clinical Decision Support System in Primary Care: A Pragmatic, Cluster-Randomized Trial”, <em>Nature Medicine</em> 32, núm. 8 (2026): 3032-3039, <a href="https://doi.org/10.1038/s41591-026-04503-6">https://doi.org/10.1038/s41591-026-04503-6</a>.</p>
+</div>
+<p class="pie">© 2026 Didier Guisland · Licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a> · <a href="https://github.com/didierguisland/the-rising-cost-of-judgment">Código fuente</a></p>
+</body></html>
