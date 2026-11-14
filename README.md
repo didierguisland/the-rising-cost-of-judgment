@@ -10,7 +10,7 @@
 
 ## The argument in four lines
 
-1. When the spreadsheet arrived, accountants didn't disappear; they nearly doubled. The work moved from arithmetic to deciding what the numbers meant. AI is doing the same to the first draft.
+1. Accountants and auditors went from about 856,000 to about 1.58 million between 1982 and 2024, while bookkeeping and accounting clerks changed little; the occupational classifications were not identical. Jeff Eyet's reading is that the work moved from arithmetic to judgment. The essay asks how AI is changing the first draft.
 2. So before automating, the question isn't *"what can AI do?"* but *"how much does it cost to get it wrong, and where do we need to be to prevent it?"*
 3. A person in the loop only protects anything if they have **a source the AI doesn't have, the time to use it, and the authority to stop it**. Miss one and review becomes a formality.
 4. Left alone, judgment ends up at the end by default, where the work already looks finished and reviewers read to approve, not to question. Judgment also lives *in the middle*, in the turns along the way.

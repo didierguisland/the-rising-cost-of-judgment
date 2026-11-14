@@ -52,7 +52,7 @@
   <text class="b ink" x="656" y="229">Leave as it is</text>
 
   <!-- connector to conditions -->
-  <path class="ln" d="M746 160 V 300 H 640" fill="none" stroke-width="1.5" marker-end="url(#ar)"/>
+  <path class="ln" d="M852 132 H 866 V 260 H 650 V 300" fill="none" stroke-width="1.5" marker-end="url(#ar)"/>
 
   <!-- 4. Conditions of judgment -->
   <text class="h acc" x="40" y="290">4 · MAKE THE PERSON'S JUDGMENT WORK</text>
