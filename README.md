@@ -44,7 +44,7 @@ The site is plain HTML and CSS, served with GitHub Pages. No build step.
 
 ## About
 
-Written by **Didier Guisland** (Mexico City, November 2026). Business & finance background, UC Berkeley Technology Leadership & AI (Summer 2026), founder of Vernuli. The essay grew out of conversations with Jeff Eyet, my professor at Berkeley; his ideas are credited in the text and notes.
+Written by **Didier Guisland** (Mexico City, November 2026). Business & finance background, UC Berkeley Technology Leadership & AI (Summer 2026), co-founder of Vernuli. The essay grew out of conversations with Jeff Eyet, my professor at Berkeley; his ideas are credited in the text and notes.
 
 ## License
 
